@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travels</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="Shortcut icon" href="./favicon-16x16.png">
+    <!--Bootstrap 5 cdn links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Bootstrap 5 cdn links-->
+
+    <!--font Awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--font Awesome cdn link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <!--Other links-->
+
+</head>
+<!--nav bar start-->
+<nav class="navbar navbar-expand-lg fixed-top bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"><span>SN</span>Travels</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa fa-bars"></i></span>
+      </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#book">Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#packages">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallary">Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary bg-warning" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--nav bar end-->
+
+<!--Home section book Start-->
+<div class="home">
+    <div class="content">
+        <h5>Welcome To Telangana</h5>
+        <h1>Visit <span class="changecontent"></span></h1>
+        <p style="font-size: 28px;">The world is a book and those who do not travel read only one page</p>
+        <p style="font-size: 20px;"> The journey through life is filled with wonder, challenges, broken hearts, extreme highs and lows, celebrations, special moments and memories that define our experience as a human. It is these events, planned or unexpected, that impact our travels
+            and define our purpose.</p>
+        <a href="#book">Book Place</a>
+    </div>
+</div>
+
+<!--Home section Book Start-->
+<section class="book" id="book">
+    <div class="container">
+
+        <div class="main-text">
+            <h1><span>B</span>ook</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="./book-img.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <form action="#">
+
+                    <input type="text" class="form-control" placeholder="Leaving From" required><br>
+                    <input type="text" class="form-control" placeholder="Going To" required><br>
+                    <input type="date" class="form-control" required><br>
+                    <button class="btn btn-primary bg-warning" style="width: 100%;" type="button">Check Availability</button><br><br>
+                    <input type="text" class="form-control" placeholder="Enter Your Name" required>
+                    <div style="margin-top: 15px; padding-left: 20px; box-shadow: -6px 6px 6px -6px ; border-radius: 5px; padding-top: 10px; padding-bottom: 10px; color: rgb(44, 101, 120);">
+                        <label for="g">  Select Gender </label>
+                        <input type="radio" name="gender" id="g" style="margin-left: 30px;">Female
+                        <input type="radio" name="gender" id="g" style="margin-left: 30px;">Male
+                        <input type="radio" name="gender" id="g" style="margin-left: 30px;">Others
+                    </div>
+                    <br>
+                    <input type="tel" class="form-control" placeholder="Enter Mobile Number" required><br>
+                    <input type="email" class="form-control" placeholder="Enter Address" required><br>
+                    <input type="submit" value="Book Now" class="submit" required>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--Home section Booking End-->
+
+<!--Home section Packages Start-->
+<section class="packages" id="packages">
+    <a href="#packages"></a>
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>P</span>ackages</h1>
+        </div>
+        <div class="card-deck">
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1215274990/photo/high-wide-angle-view-of-charminar-in-the-night.jpg?b=1&s=170667a&w=0&k=20&c=RoEHn64U7IVbkjUI0daEX0EPsCtJxvg3CKCI04WnIs0=" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Hyderabad</h3>
+                            <p style="font-size: 15px;">Hyderabad Pearls - Hyderabad has always been referred to as the "city of pearls" even though it is far away from the sea. Some of the famous pearl shops in Hyderabad are in Charminar, Begumpet and M G Road. Keesara – located
+                                east of Hyderabad.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$499</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/bd/4a/f9/most-viewable-place.jpg?w=1200&h=-1&s=1" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Warangal</h3>
+                            <p style="font-size: 15px;">Originally known as Orugallu which means 'one stone', Warangal was ruled by the Kakatiya dynasty. It is believed that the entire town was carved out on a single rock. The Kakatiyas built many monuments in the state which include
+                                iconic, gateways and temples.
+                            </p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$699</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/fe/1c/9e/fe1c9ec014c03e46d54b15393aeaba04.jpg" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Karimnagar</h3>
+                            <p style="font-size: 15px;">Kotilingala in Karimnagar district was the first capital of the Satavahana Kingdom. Formerly known as Sabbinadu, and Prataparudra found at Karimnagar and Srisailam provide evidence of the area's rich history.
+                            </p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$499</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2012/03/02/00/36/silhouette-20787__340.jpg" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Medak</h3>
+                            <p style="font-size: 15px;">Kakatiya emperor Prataparudra built Medak fort on a hillock around 12th century, it was called the Methukudurgam (and Methukuseema), from the Telugu word Methuku – meaning cooked rich grain. This fort provided as a vantage
+                                point for the Kakatiyan rulers in ancient India.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$399</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2017/04/09/09/56/avenue-2215317__340.jpg" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Adilabad</h3>
+                            <p style="font-size: 15px;">Adilabad is famous for its exclusive handicrafts and other such craftsmanship. Try out the stone carving and wood carving in the town as well as bamboo handicrafts and Bhorown crafts. .
+                            </p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$699</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287__340.jpg" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Nizamabad</h3>
+                            <p style="font-size: 15px;">Nizamabad fort, also known as Nizamabad of quilla, was built in tenth century by Rashtrakuta Kings situated at south west of Nizamabad city.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$499</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1328565719/photo/interlaken-switzerland.jpg?s=2048x2048&w=is&k=20&c=kSwwEI8O8naBrc25Sqzn6rGHoFGt6cu-CKWhuAE6VbU=" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Siddipet</h3>
+                            <p style="font-size: 15px;">Siddipet, a town in the Siddipet District, is renowned for its ancient religious attractions like temples, mosques and churches as well as historical monuments like Lal Kaman and Burj. The Yerra Cheruvu and Komati Cheruvu,
+                                tributaries of the Manjira River.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$299</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/06/05/36/lake-1802337_960_720.jpg" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Nirmal</h3>
+                            <p style="font-size: 15px;">Bagavatham, Pandavulu, Yellamma Katha, Sharada Kathalu, Kolatam and Jada Koppulu. And the most distinguishing of all, the exotic Nirmal Toys, made of wood, have earned national and international recognition.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$345</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2014/10/15/15/14/man-489744__340.jpg" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Asifabad</h3>
+                            <p style="font-size: 15px;">Asifabad has also been renamed as KomaramBheem district after the legendary Gond martyr, born in RavteSankepalli village near Asifabad.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$499</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/508628776/photo/sunset-over-kandariya-mahadeva-temple.jpg?b=1&s=170667a&w=0&k=20&c=b8XnVpyy7hDGgHpBOpXTZ581q6Xqan0IUaGKRcgZRRM=" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Bhuvangiri</h3>
+                            <p style="font-size: 15px;">Bhongir, officially known as, Bhuvanagiri is a City and a district headquarters of the Yadadri Bhuvanagiri district and part of the Hyderabad Metropolitan Region of the Indian state of Telangana.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$199</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2020/12/17/00/43/skyscrapers-5838029__340.jpg" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Mancherial</h3>
+                            <p style="font-size: 15px;">Mancherial district boasts of the crocodile sanctuary near Chennur and thick forest under a part of the Kawal Tiger Reserve. Gudemgutta Sri Satyanarayana Swami Temple is a noted pilgrim centre in the district.
+                            </p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$999</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMdw9T2V4o493CvXX3aqd3WGM78RO_vp5_vMhDyflJ7w&usqp=CAU&ec=48665698" alt="">
+                        <div class="card-body">
+                            <h3 style="font-size: 25px; font-weight: 600;">Kothagudem</h3>
+                            <p style="font-size: 15px;">Kothagudem is a city in Telangana. It serves as the headquarters of the Bhadradri Kothagudem district of the Indian state of Telangana. It was a portion of large Zamindari estate known as Husanabad Shankaragiri or Palvancha
+                                Zamindari in the Nizam's Dominion.</p>
+                            <div class="star" style="font-size: 15px;">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star-half checked"></i>
+                            </div>
+                            <h6 style="font-size: 20px;">Price: <strong>$1199</strong></h6>
+                            <a href="#book" class="btn btn-warning">Book Now</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Home section Packages End-->
+
+<!--Home section Services Start-->
+<section class="services" id="services">
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body">
+                        <h3>Affordable Hotel</h3>
+                        <p>Customer-driven. Great hotels know that one of the secrets of excellence is being customer-driven and understanding and fulfilling clients' needs and expectations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <div class="card-body">
+                        <h3>Food and Drinks</h3>
+                        <p>Food quality control is incredibly important to ensure consumers are eating and handling safe food items. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="card-body">
+                        <h3>Safty Guide</h3>
+                        <p>A tour guide knows the area intimately and knows of people, quiet spots and experiences that aren't discussed on any website..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <i class="fas fa-globe-asia"></i>
+                <div class="card-body">
+                    <h3>Around The Telangana</h3>
+                    <p>Customer-driven. Great hotels know that one of the secrets of excellence is being customer-driven and understanding and fulfilling clients' needs and expectations.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <i class="fas fa-bus"></i>
+                <div class="card-body">
+                    <h3>Fastest Travel</h3>
+                    <p>Food quality control is incredibly important to ensure consumers are eating and handling safe food items. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <i class="fas fa-hiking"></i>
+                <div class="card-body">
+                    <h3>Adventures</h3>
+                    <p>A tour guide knows the area intimately and knows of people, quiet spots and experiences that aren't discussed on any website..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+
+    </div>
+
+
+
+</section>
+<!--Home section Services End-->
+
+<!--Home section Gallary start-->
+<section class="gallary" id="gallary">
+    <a href="#gallary"></a>
+    <div class="container">
+
+        <div class="main-txt">
+            <h1><span>G</span>allery</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px; margin-bottom: 20px;">
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-hrWgWT5eNt62f8RotYu1Q_zzqwd9yCDrP0hYnWgbw&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGqbMcvMlljOeD9MMxfP3GrN3lJli1szRPk7LUm6xRQ&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTseRPWpXZhW9JnuSIvzLLVHt37KzEI8xZ0nT2ly_9L3Q&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDqgdDht-pG4_3F3XAlsVttfNL4oOZ86ttTchxXvi6MA&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJsx7Uo2M4Atfamvu5opfbN2amyYnSfvCk7bDWJe9xIOxB-hHrvHW-9TyqyBDQO9tEfY0SowXWGGs&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHsicE5HBI9v0wvrCYkSrLmr9Vme8F7uONcOOWjaqmoH6zXzpyaGKenrtnFil3cE7S8i9-CI8MdJA&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT69x9coLRwX8oBZ_6at3Rq-pFDY0LZFGLl-loHvD-In8dRrhlzXNzXNYU3IfyLv279ZR38DPTtKKI&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgjfHWB4sc-yNobk4TBBteprOH27hmw4mw_sJgmZ0kSewqqsPPWgL6IA-bTiEKCBNR0EI2o7Wo61s&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZdGI9MnAaP_y7NqXccnZ6Dl3jw07Ej7TAu7OVQ09bIg&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_9a4nd8wb85LqwI6vXdUYI54CyfPTuonA1qIySDBgg&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPlPykbGY-f05VZz9jTL5kgU2_ovTFMhuViy9gSNGqYQ&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdekrisFE16stU8l6w8zke1g9PT_pQzjENoExDLzBew&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPm9o1VSZPXzkvND38_5msGYa_EApgYCtmBmDSNpFKXg&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypwky5l4Xi1a3W0DtlhrAY498o1e2FynpVnQ-nWnuxQ&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG5UCFFYtka1BI_4t8V1ZIDzM1ix_qV2SIn2Odj3ST_Q&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6EKN-P7UGVxFmAfZPPgLIpsW09Rlt4NNS-2pnMmUSOw&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUbckwT0-QhQcKoCLvO9znIoNFpdUXvM2dSOEOblR3Ew&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDgQ6c_n7dq_8KCKyvoY-uI7V78IgqUVveY-9_VfLxg&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="./hero1.jpg" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GiexKlidpNtOBrLzsEgjhuRBqV-EzN8KeVhMOvL_gQ&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8CZbSVjsB0ruZPeP2pmKhv8AyQA1p5y0f26ia16YzGg&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQlLyMdef1eFjIyPMHWp0y6UgStEI_LwVS41hb2yR7ng&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH-OCin6dniYXR6ih2J8mizGQDXmYFHr7lbiFW9H00Ng&usqp=CAU&ec=48665698" alt="" height="230px">
+                </div>
+            </div>
+            <div class="col-md-2 py-3 py-md-0">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="" height="230px">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+
+
+</section>
+<!--Home section Gallary End-->
+
+<!--Home section Videos Start-->
+
+<section class="video" id="video">
+    <a href="#video"></a>
+    <div class="container">
+
+        <div class="main-txt">
+            <h1><span>Video</span>Gallery</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px; margin-bottom: 20px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop poster="" height="230px">  
+                        <source src="./10.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>Radha Krishna</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop poster="" height="230px">  
+                        <source src="./4.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>Jatayu-Bird</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop poster="" height="230px">  
+                        <source src="./5.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>Munnar_Road</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop poster="" height="230px">  
+                        <source src="./6.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>Beautiful Green Nature</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop mute poster="" height="230px">  
+                        <source src="./7.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>View Of Idukki</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop poster="" height="230px">  
+                        <source src="./9.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>Nature</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop poster="" height="230px">  
+                        <source src="./12.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>Marvel</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <video controls loop poster="" height="230px">  
+                        <source src="./13.mp4" type="video/mp4">    
+                      </video>
+                    <div class="card-body">
+                        <h3>Beautiful City</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Home section About us End-->
+<section class="about" id="about">
+    <div class="container">
+
+        <div class="main-txt">
+            <h1>About<span>Us</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="./about-img.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <h2>How Travel Agency Work</h2>
+                <p>You can apply for CTA designation with at least 12 months of experience in the retail travel industry. Whereas, you become eligible to apply for a CTC designation after getting 5 years of experience in this industry to prove that the applicants
+                    have requisite skills to be effective managers.</p>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseOne">
+                      Read More..
+                    </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <p>The primary role of a travel agent is to help people make travel arrangements, which might include booking flights, hotels, sightseeing tours, and making dining recommendations. A travel agent assesses each customer's unique
+                                needs, preferences, and budget to ensure their trip goes as smoothly as possible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!--Home section about us End-->
+
+<!--slide start-->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./logo.png" alt="Los Angeles" width="100%" height="350px" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./snlogo.jpeg" alt="Chicago" width="100%" height="350px" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2015/03/01/05/54/green-654402__340.jpg" alt="New York" width="100%" height="350px" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2017/05/31/11/10/countryside-2360038__340.jpg" alt="New York" width="100%" height="350px" class="d-block w-100" ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://w0.peakpx.com/wallpaper/101/168/HD-wallpaper-journey-with-names-female-names-journey-name-purple-neon-lights-horizontal-text-with-journey-name.jpg " alt="New York " width="100% " height="350px " class="d-block w-100 ">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev " type="button " data-bs-target="#demo " data-bs-slide="prev ">
+          <span class="carousel-control-prev-icon "></span>
+        </button>
+            <button class="carousel-control-next " type="button " data-bs-target="#demo " data-bs-slide="next ">
+          <span class="carousel-control-next-icon "></span>
+        </button>
+        </div>
+<br>
+<hr>
+    <!--Home section footer start-->
+    <footer id="footer " style="text-align: center; ">
+        <h1><span>SN</span>Travels</h1>
+        <p >wanderlust Add to list Share. A strong desire to travel is called wanderlust. If you dream of backpacking through Europe and then taking a quick spin through southeast Asia, you have wanderlust. The Germans call the strong urge for travel wanderlust,
+            literally a desire for wandering.</p>
+        <div class="social-links ">
+            <i class="fa-brands fa-twitter "></i>
+            <a href="https://instagram.com/santhoshdurgam1260?igshid=ZDdkNTZiNTM=" target=" _blank "> <i class="fa-brands fa-instagram "></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100005710579137&mibextid=ZbWKwL " target="_blank "><i class="fa-brands fa-facebook "></i></a>
+            <a href="https://www.youtube.com/@santhoshdurgam1138 " target="-blank "> <i class="fa-brands fa-youtube "></i></a>
+            <a href="https://wa.link/s4mn3k " target="-black "><i class="fa-brands fa-whatsapp "></i></a>
+            <a href="https://www.snapchat.com/add/santhosh_lege21?share_id=uXlUnOrhL0U&locale=en-IN " target="_blank "><i class="fa-brands fa-snapchat " ></i></a>
+
+        </div>
+        <hr>
+        <div class="credit ">
+            <p>Designed By <a href="# ">Santhosh Durgam</a></p>
+        </div>
+        <div class="copyright ">
+            <p>&copy;Copyright 2022-2023 by Refsnes Data. All Rights Reserved</p>
+        </div>
+    </footer>
+    <body>
+    </body>
+</html>
